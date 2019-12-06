@@ -18,9 +18,6 @@ const BookSchema = new Schema({
     type: Number,
     required: true
   },
-  publishDate: {
-    type: Date
-  },
   date: {
     type: Date,
     default: Date.now
